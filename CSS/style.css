@@ -1,25 +1,21 @@
 body {
-  background-color: antiquewhite;
+    background-color: antiquewhite;
     font-family: 'raleway', sans-serif;
 }
 
-title{
-    font: 'raleway', sans-serif;
-}
-
 h1 {
-  color: black;
-  text-align: center;
-  font-size: 40px;
-  padding-top: 20px;
-  padding-bottom: 5px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 h2 {
-    font-size: 12pt;
+    font-size: 15pt;
     padding: 10px;
-    color: gray;
 }
+
 h3 {
     font-size: 15pt;
     padding-top: 50px;
@@ -28,4 +24,14 @@ h3 {
 h4 {
     font-size: 15pt;
     padding-top: 20px;
+}
+
+h5 {
+    font-size: 15pt;
+}
+
+.MainPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
