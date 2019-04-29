@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title>Converter</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ 
+<h1>Convert Centimeters to Inches</h1>
+<p>Input a number in centimeters:</p>
+ 
+<input id="in">
+ 
+<button type="button" onclick="myFunction()">Submit</button>
+ 
+<p id="out"></p>
+ 
+<script>
+function myFunction() {
+    var inVar, outVar;
+ 
+    // Input
+    inVar = document.getElementById("in").value;
+   
+    // Processing
+    outVar = parseInt(inVar) * 0.393701;
+ 
+    // Output
+    document.getElementById("out").innerHTML = outVar + " inches";
+}
+</script>
+ 
+</body>
+</html>
